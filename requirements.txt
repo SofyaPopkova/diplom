@@ -11,3 +11,5 @@ requests
 redis
 celery
 drf_spectacular
+social-auth-core >= 4.1.0
+social-auth-app-django

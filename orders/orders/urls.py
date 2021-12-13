@@ -20,6 +20,7 @@ from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('social_django.urls')),
     path('api/v1/users/', include('users.urls')),
     path('api/v1/shops/', include('shops.urls')),
     path('api/v1/clients/', include('clients.urls')),
